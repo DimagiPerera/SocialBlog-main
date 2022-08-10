@@ -21,7 +21,7 @@ function BlogDetails(props) {
     
     async function getBlogDetails() {
       axios
-        .get(`http://localhost:8070/blog/${props.match.params.id}`)
+        .get(`http://socialappblog123.herokuapp.com/blog/${props.match.params.id}`)
         .then((res) => {
           setTitle(res.data.title);
           setColor(res.data.color);

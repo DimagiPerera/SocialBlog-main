@@ -30,7 +30,7 @@ function AddBlog() {
 
         try {
 
-            await axios.post("http://localhost:8070/blog/addB", newBlog, config);
+            await axios.post("http://socialappblog123.herokuapp.com/blog/addB", newBlog, config);
             alert("blog added successfully")
             history.push('/')
         } catch (error) {

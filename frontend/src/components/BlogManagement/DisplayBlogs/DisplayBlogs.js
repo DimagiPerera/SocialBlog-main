@@ -16,7 +16,7 @@ function DisplayBlogs() {
   useEffect(() => { 
 
     async function getAllBlogs() {
-      axios.get(`http://localhost:8070/blog/`).then((res) => {
+      axios.get(`http://socialappblog123.herokuapp.com/blog/`).then((res) => {
         setBlog(res.data)  
       }).catch((error) => {
         alert("Failed to fetch the posts")

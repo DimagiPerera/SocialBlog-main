@@ -14,7 +14,7 @@ function DisplayComments() {
   useEffect(() => { 
 
     async function getAllComments() {
-      axios.get(`http://localhost:8070/comment/${bid}`).then((res) => {
+      axios.get(`http://socialappblog123.herokuapp.com/comment/${bid}`).then((res) => {
         setComment(res.data)  
       }).catch((error) => {
         alert("Failed to fetch the posts")
