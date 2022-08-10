@@ -33,6 +33,11 @@ connection.once("open", function() {
     console.log("DB connection success");
 }); 
 
+
+app.get("/",(req,res)=>{
+    res.json("server start")
+})
+
 app.use("/blog",BlogRouter);
 app.use("/comment",CommentRouter);
 
