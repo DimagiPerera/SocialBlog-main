@@ -1,0 +1,61 @@
+a{
+  text-decoration: none;
+}
+a:hover { 
+  text-decoration:none; 
+}
+
+Link{
+  text-decoration: none;
+}
+Link:hover { 
+  text-decoration:none; 
+}
+
+.card-form {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.productCard{
+  margin-top: 70px;
+  width:400px;
+  height: 450px;
+  border: 4px solid rgb(59, 129, 209);
+  border-radius: 15px;
+  float: left;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 30px;
+
+}
+
+.productCard1{
+  margin-top: 10px;
+  width:400px;
+  height: 70px;
+  border: 4px solid rgb(59, 129, 209);
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 30px;
+
+}
+
+.productCard2{
+  margin-top: 10px;
+  width:500px;
+  height: 350px;
+  border: 4px solid rgb(59, 129, 209);
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 200px;
+
+}
+
+h6{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+}
